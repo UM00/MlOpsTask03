@@ -13,3 +13,6 @@ def test_getClassName():
 	assert mlopsObj.getClassName() == 'Machine Learning Operations (CS-B)'
 def test_getTotalStudents():
 	assert mlopsObj.getTotalStudents() == 5
+def test_addStudents():
+	mlopsObj.addStudents()
+	assert mlopsObj.getTotalStudents() == 6	
