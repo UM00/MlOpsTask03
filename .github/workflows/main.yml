@@ -12,5 +12,5 @@ jobs:
       - name: install dependencies
         run: make install
       - name:Test with pytest
-        run: python -m pytest test.py     
+        run: make test    
        
